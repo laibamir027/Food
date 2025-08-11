@@ -1,18 +1,25 @@
-body {
-    background-color: #dceee5;
-}
+/* Tag selectors */
 h1 {
     color: #04331a;
     font-size: 50px;
 }
-h2 {
-    color: #04331a;
-    font-size: 20px;
+img:hover{
+    background-color: gold;
 }
-p {
-   color: #04331a;
-    font-size: 15px;
+/* Class selectors*/
+.burger {
+    background-color: green;
 }
-img {
-    background-color: #dceee5;
+.circular {
+    border-radius: 100%;
+}
+.sandwich {
+    background-color: red;
+}
+.circular {
+    border-radius: 100%;
+}
+/* ID selectors */
+#heading {
+    color: blue;
 }
